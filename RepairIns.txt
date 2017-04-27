@@ -1,0 +1,102 @@
+{
+"data" : -{
+"totalheadings" : 3,
+"totalheadings_data" : -[
+-{
+"heading_name":"Training",
+"subheadings": 0,
+"subheadings_data" : -[
+]
+},
+
+-{
+"heading_name":"Bill of material",
+"subheadings": 0,
+"subheadings_data" : -[
+]
+},
+
+-{
+"heading_name":"Repair Engineering",
+"subheadings": 6,
+"subheadings_data" : -[
+-{
+"name":"Dis-assemble",
+"Instructions_data" : "1. Dis-assemble Clean the area with suitable solvent
+2. Mask the adjacent areas as required
+3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
+4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
+5. Inspect the area under UV light to ensure full removal of penetrant
+6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
+7. Inspect the part under UV light for discontinuity indications and mark them accordingly
+8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
+9. Remove the developer as necessary.",
+},
+{
+"name":"Cleaning",
+"Instructions_data" : "1. Cleaning Clean the area with suitable solvent
+2. Mask the adjacent areas as required
+3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
+4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
+5. Inspect the area under UV light to ensure full removal of penetrant
+6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
+7. Inspect the part under UV light for discontinuity indications and mark them accordingly
+8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
+9. Remove the developer as necessary.",
+},
+{
+"name":"Inspection",
+"Instructions_data" : "1. Inspection Clean the area with suitable solvent
+2. Mask the adjacent areas as required
+3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
+4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
+5. Inspect the area under UV light to ensure full removal of penetrant
+6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
+7. Inspect the part under UV light for discontinuity indications and mark them accordingly
+8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
+9. Remove the developer as necessary.",
+},
+{
+"name":"Repair",
+"Instructions_data" : "1. Repair Clean the area with suitable solvent
+2. Mask the adjacent areas as required
+3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
+4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
+5. Inspect the area under UV light to ensure full removal of penetrant
+6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
+7. Inspect the part under UV light for discontinuity indications and mark them accordingly
+8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
+9. Remove the developer as necessary.",
+},
+{
+"name":"After market data",
+"Instructions_data" : "1. After market data Clean the area with suitable solvent
+2. Mask the adjacent areas as required
+3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
+4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
+5. Inspect the area under UV light to ensure full removal of penetrant
+6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
+7. Inspect the part under UV light for discontinuity indications and mark them accordingly
+8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
+9. Remove the developer as necessary.",
+},
+
+{
+"name":"Assemble",
+"Instructions_data" : "1. Assemble Clean the area with suitable solvent
+2. Mask the adjacent areas as required
+3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
+4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
+5. Inspect the area under UV light to ensure full removal of penetrant
+6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
+7. Inspect the part under UV light for discontinuity indications and mark them accordingly
+8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
+9. Remove the developer as necessary.",
+}
+]
+}
+]
+}
+}
+
+
