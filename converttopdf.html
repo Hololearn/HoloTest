@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>Generate PDF From JS</title>
+    
+    <style type="text/css">
+        .container {
+            width: 100%;
+        }
+
+        #records {
+            background-color: #fff;
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .space {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        body {
+            background-image: none !important;
+            font-family: Arial;
+            font-size: 36px;
+        }
+
+        center, #remarks {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <label id="name"></label>
+        <label id="timestamp"></label>
+
+        <div class="container" id="records">
+            <div id="Q0" class="space">
+                Question 1 <span class="spnResponse"></span><br />
+            </div>
+
+            <div id="Q1" class="space">
+                Question 2<span class="spnResponse"></span><br />
+            </div>
+
+            <div id="Q2" class="space">
+                Question 3<span class="spnResponse"></span><br />
+            </div>
+
+            <div id="Q3" class="space">
+                Question 4<span class="spnResponse"></span><br />
+            </div>
+
+            <div id="Q4" class="space">
+                Question 5<span class="spnResponse"></span><br />
+            </div>
+        </div>
+
+        <label id="remarks"></label>
+    </center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //Test url: test.html?q=1,0,1,0,1&n=jas&ts=10.12.2017&re=test%20remarks
+            //q: Only radio value
+            //n: Name
+            //ts: TimeStamp
+            //re: Remarks
+
+            var objQueryParams = getUrlVars();
+            var questions = objQueryParams['q'].split(',');
+            var name = objQueryParams['n'];
+            var timestamp = objQueryParams['ts'];
+            var remarks = objQueryParams['re'];
+
+            $('#name').text(name);
+            $('#timestamp').text(timestamp);
+            $('#remarks').text(decodeURI(remarks));
+
+            $.each(questions, function (key, value) {
+                $('#Q' + key).find('.spnResponse').text(' - ' +value);
+            });
+
+            var pdf = new jsPDF('p', 'pt', 'a4');
+            pdf.addHTML($('body'), function () {
+                pdf.save('test.pdf');
+            });
+        });
+
+        function getUrlVars() {
+            var vars = [], hash;
+            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            for (var i = 0; i < hashes.length; i++) {
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        }
+    </script>
+</body>
+</html>
