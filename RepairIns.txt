@@ -1,100 +1,169 @@
 {
-"data" : -{
-"totalheadings" : 3,
-"totalheadings_data" : -[
--{
-"heading_name":"Training",
-"subheadings": 0,
-"subheadings_data" : -[
-]
-},
-
--{
-"heading_name":"Bill of material",
-"subheadings": 0,
-"subheadings_data" : -[
-]
-},
-
--{
-"heading_name":"Repair Engineering",
-"subheadings": 6,
-"subheadings_data" : -[
--{
-"name":"Dis-assemble",
-"Instructions_data" : "1. Dis-assemble Clean the area with suitable solvent
-2. Mask the adjacent areas as required
-3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
-4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
-5. Inspect the area under UV light to ensure full removal of penetrant
-6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
-7. Inspect the part under UV light for discontinuity indications and mark them accordingly
-8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
-9. Remove the developer as necessary.",
-},
-{
-"name":"Cleaning",
-"Instructions_data" : "1. Cleaning Clean the area with suitable solvent
-2. Mask the adjacent areas as required
-3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
-4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
-5. Inspect the area under UV light to ensure full removal of penetrant
-6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
-7. Inspect the part under UV light for discontinuity indications and mark them accordingly
-8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
-9. Remove the developer as necessary.",
-},
-{
-"name":"Inspection",
-"Instructions_data" : "1. Inspection Clean the area with suitable solvent
-2. Mask the adjacent areas as required
-3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
-4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
-5. Inspect the area under UV light to ensure full removal of penetrant
-6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
-7. Inspect the part under UV light for discontinuity indications and mark them accordingly
-8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
-9. Remove the developer as necessary.",
-},
-{
-"name":"Repair",
-"Instructions_data" : "1. Repair Clean the area with suitable solvent
-2. Mask the adjacent areas as required
-3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
-4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
-5. Inspect the area under UV light to ensure full removal of penetrant
-6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
-7. Inspect the part under UV light for discontinuity indications and mark them accordingly
-8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
-9. Remove the developer as necessary.",
-},
-{
-"name":"After market data",
-"Instructions_data" : "1. After market data Clean the area with suitable solvent
-2. Mask the adjacent areas as required
-3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
-4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
-5. Inspect the area under UV light to ensure full removal of penetrant
-6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
-7. Inspect the part under UV light for discontinuity indications and mark them accordingly
-8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
-9. Remove the developer as necessary.",
-},
-
-{
-"name":"Assemble",
-"Instructions_data" : "1. Assemble Clean the area with suitable solvent
-2. Mask the adjacent areas as required
-3. Use a brush or swab to apply the applicable penetrant and dwell for specified time
-4. Clean the area with suitable solvent to remove the penetrant. Care should be taken not to use too much solvent.
-5. Inspect the area under UV light to ensure full removal of penetrant
-6. Apply a suitable developer on the concerned area and wait for specified time for the developer to absorb the penetrant
-7. Inspect the part under UV light for discontinuity indications and mark them accordingly
-8. Inspect the indications under white light with specified magnification to identify type of discontinuity.
-9. Remove the developer as necessary.",
-}
-]
-}
-]
-}
+    "data" :  -{
+        "totalheadings" :  6,
+        "totalheadings_data" :  -[
+            -{
+                "heading_name": "Training",
+                "subheadings":  4,
+                "subheadings_data" :  -[
+					-{
+                        "name": "Part Description",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Function",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "How it works",
+                        "Instructions_data" :  "",
+                        
+                    },
+					{
+                        "name": "Fun Facts",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    
+                ]
+            },
+            -{
+                "heading_name": "BOM Management System",
+                "subheadings":  4,
+                "subheadings_data" :  -[
+					-{
+                        "name": "Part Name",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Part Number",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Revisions",
+                        "Instructions_data" :  "",
+                        
+                    },
+					{
+                        "name": "Quantity to build an assembly",
+                        "Instructions_data" :  "",
+                        
+                    },
+                ]
+            },
+            -{
+                "heading_name": "Repair Engineering",
+                "subheadings":  7,
+                "subheadings_data" :  -[
+                    -{
+                        "name": "Find a repair shop",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Find spare part",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Compliance requirements",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Cleaning",
+                        "Instructions_data" :  "",
+                        
+                    },
+					{
+                        "name": "Inspection",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Blend Repair",
+                        "Instructions_data" :  "1.Place the impeller on to the cloth and identify the uncleaned rough damaged areas on the blades2.File the damage section of the leading edge3.Rub the damaged area with sandpaper and check for the smoothness4.Clean the area with cloth and check for continuous and smooth leading edge5.Apply oil on the surface area of the blade6.Rub the surface area with sandpaper and check for the smoothness7.Clean the surface area with cloth and check for smoothness8.Surface finish of the repaired area must be comaprable to the adjacent non-blended area",                        
+                    },
+                    {
+                        "name": "After Market Data",
+                        "Instructions_data" :  "",
+                        
+                    },
+					
+                ]
+            }
+			-{
+                "heading_name": "Maintainance Engineering",
+                "subheadings":  2,
+                "subheadings_data" :  -[
+					{
+                        "name": "Assembly",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Dis-assembly",
+                        "Instructions_data" :  "",
+                        
+                    },
+                ]
+            },
+			-{
+                "heading_name": "Business Intelligence",
+                "subheadings":  3,
+                "subheadings_data" :  -[
+					{
+                        "name": "Warranty",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Price data",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Service life",
+                        "Instructions_data" :  "",
+                        
+                    },
+                ]
+            },
+			-{
+                "heading_name": "OEM Data",
+                "subheadings":  5,
+                "subheadings_data" :  -[
+					{
+                        "name": "Quality Assurance",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Part-print/blueprint",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Equality Non-compliance",
+                        "Instructions_data" :  "",
+                        
+                    },
+					{
+                        "name": "Materials",
+                        "Instructions_data" :  "",
+                        
+                    },
+                    {
+                        "name": "Coatings",
+                        "Instructions_data" :  "",
+                        
+                    },
+                ]
+            },
+        ]
+    }
 }
